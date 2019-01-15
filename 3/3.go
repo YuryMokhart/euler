@@ -17,6 +17,7 @@ func isPrime(x int64) bool {
 	return true
 }
 
+// WORKS WITH NUMBERS THAT HAVE a SQUARE ROOT
 func Calculate(n int64) int64{
 	var i int64 = int64(math.Sqrt(float64(n)))
 	var result int64
